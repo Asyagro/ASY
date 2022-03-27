@@ -570,7 +570,7 @@ contract ASYAGRO is Context, IERC20, Ownable {
         uint256 startTime     = locks[target_].startTime;
         uint256 initialLock    = locks[target_].initialLock;
         require(locks[target_].lockedToken > 0 , "All tokens are unlocked");
-        require(block.timestamp > startTime + (initialLock * 1 minutes  ), "UnLocking period is not opened");
+        require(block.timestamp > startTime + (initialLock * 1 days  ), "UnLocking period is not opened");
         delete locks[target_];
     } 
 
