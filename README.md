@@ -2,10 +2,10 @@
 ASYAGRO token
 ASYAGRO (ASY)  TECHNICAL DOCUMENTATION
 ############################################
-_name = "ASYAGRO";
-_symbol = "ASY";
-_decimals = 18;
-_totalSupply = 7500,000,000
+name : "ASYAGRO"
+symbol : "ASY"
+decimals : 18
+totalSupply : 7500,000,000
 #############################################
 
 Locks And Working:
