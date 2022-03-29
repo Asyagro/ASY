@@ -20,7 +20,7 @@ Locks And Working:
 
 2.	Unclock token from wallet once locking period ends
 
-	Call unlockToken()
+	Call unlock()
 
 	Input: targetAddress
 
